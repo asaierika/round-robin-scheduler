@@ -1,0 +1,15 @@
+0,RUNNING,process-name=P4,remaining-time=30,mem-usage=38%,allocated-at=0
+24,RUNNING,process-name=P2,remaining-time=40,mem-usage=75%,allocated-at=768
+27,RUNNING,process-name=P4,remaining-time=6,mem-usage=75%,allocated-at=0
+30,RUNNING,process-name=P2,remaining-time=37,mem-usage=75%,allocated-at=768
+33,RUNNING,process-name=P4,remaining-time=3,mem-usage=75%,allocated-at=0
+36,FINISHED,process-name=P4,proc-remaining=1
+36,RUNNING,process-name=P2,remaining-time=34,mem-usage=38%,allocated-at=768
+72,FINISHED,process-name=P2,proc-remaining=0
+99,RUNNING,process-name=P1,remaining-time=20,mem-usage=100%,allocated-at=0
+120,FINISHED,process-name=P1,proc-remaining=0
+132,RUNNING,process-name=P3,remaining-time=20,mem-usage=100%,allocated-at=0
+153,FINISHED,process-name=P3,proc-remaining=0
+Turnaround time 32
+Time overhead 1.23 1.14
+Makespan 153

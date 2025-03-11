@@ -1,0 +1,21 @@
+0,RUNNING,process-name=LEFT1,remaining-time=10,mem-usage=50%,allocated-at=0
+3,RUNNING,process-name=RIGHT,remaining-time=20,mem-usage=100%,allocated-at=1024
+6,RUNNING,process-name=LEFT1,remaining-time=7,mem-usage=100%,allocated-at=0
+9,RUNNING,process-name=RIGHT,remaining-time=17,mem-usage=100%,allocated-at=1024
+12,RUNNING,process-name=LEFT1,remaining-time=4,mem-usage=100%,allocated-at=0
+15,RUNNING,process-name=RIGHT,remaining-time=14,mem-usage=100%,allocated-at=1024
+18,RUNNING,process-name=LEFT1,remaining-time=1,mem-usage=100%,allocated-at=0
+21,FINISHED,process-name=LEFT1,proc-remaining=2
+21,RUNNING,process-name=RIGHT,remaining-time=11,mem-usage=50%,allocated-at=1024
+24,RUNNING,process-name=LEFT2,remaining-time=10,mem-usage=100%,allocated-at=0
+27,RUNNING,process-name=RIGHT,remaining-time=8,mem-usage=100%,allocated-at=1024
+30,RUNNING,process-name=LEFT2,remaining-time=7,mem-usage=100%,allocated-at=0
+33,RUNNING,process-name=RIGHT,remaining-time=5,mem-usage=100%,allocated-at=1024
+36,RUNNING,process-name=LEFT2,remaining-time=4,mem-usage=100%,allocated-at=0
+39,RUNNING,process-name=RIGHT,remaining-time=2,mem-usage=100%,allocated-at=1024
+42,FINISHED,process-name=RIGHT,proc-remaining=1
+42,RUNNING,process-name=LEFT2,remaining-time=1,mem-usage=50%,allocated-at=0
+45,FINISHED,process-name=LEFT2,proc-remaining=0
+Turnaround time 29
+Time overhead 2.40 2.20
+Makespan 45

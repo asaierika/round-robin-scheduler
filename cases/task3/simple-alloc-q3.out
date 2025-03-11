@@ -1,0 +1,41 @@
+0,RUNNING,process-name=P1,remaining-time=3,mem-usage=1%,mem-frames=[0]
+3,EVICTED,evicted-frames=[0]
+3,FINISHED,process-name=P1,proc-remaining=5
+3,RUNNING,process-name=P2,remaining-time=24,mem-usage=1%,mem-frames=[0,1]
+6,RUNNING,process-name=P3,remaining-time=9,mem-usage=2%,mem-frames=[2,3,4,5]
+9,RUNNING,process-name=P4,remaining-time=12,mem-usage=3%,mem-frames=[6,7,8,9,10,11,12,13]
+12,RUNNING,process-name=P5,remaining-time=14,mem-usage=6%,mem-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+15,RUNNING,process-name=P6,remaining-time=16,mem-usage=9%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+18,RUNNING,process-name=P2,remaining-time=21,mem-usage=9%,mem-frames=[0,1]
+21,RUNNING,process-name=P3,remaining-time=6,mem-usage=9%,mem-frames=[2,3,4,5]
+24,RUNNING,process-name=P4,remaining-time=9,mem-usage=9%,mem-frames=[6,7,8,9,10,11,12,13]
+27,RUNNING,process-name=P5,remaining-time=11,mem-usage=9%,mem-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+30,RUNNING,process-name=P6,remaining-time=13,mem-usage=9%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+33,RUNNING,process-name=P2,remaining-time=18,mem-usage=9%,mem-frames=[0,1]
+36,RUNNING,process-name=P3,remaining-time=3,mem-usage=9%,mem-frames=[2,3,4,5]
+39,EVICTED,evicted-frames=[2,3,4,5]
+39,FINISHED,process-name=P3,proc-remaining=4
+39,RUNNING,process-name=P4,remaining-time=6,mem-usage=9%,mem-frames=[6,7,8,9,10,11,12,13]
+42,RUNNING,process-name=P5,remaining-time=8,mem-usage=9%,mem-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+45,RUNNING,process-name=P6,remaining-time=10,mem-usage=9%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+48,RUNNING,process-name=P2,remaining-time=15,mem-usage=9%,mem-frames=[0,1]
+51,RUNNING,process-name=P4,remaining-time=3,mem-usage=9%,mem-frames=[6,7,8,9,10,11,12,13]
+54,EVICTED,evicted-frames=[6,7,8,9,10,11,12,13]
+54,FINISHED,process-name=P4,proc-remaining=3
+54,RUNNING,process-name=P5,remaining-time=5,mem-usage=7%,mem-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+57,RUNNING,process-name=P6,remaining-time=7,mem-usage=7%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+60,RUNNING,process-name=P2,remaining-time=12,mem-usage=7%,mem-frames=[0,1]
+63,RUNNING,process-name=P5,remaining-time=2,mem-usage=7%,mem-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+66,EVICTED,evicted-frames=[14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+66,FINISHED,process-name=P5,proc-remaining=2
+66,RUNNING,process-name=P6,remaining-time=4,mem-usage=4%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+69,RUNNING,process-name=P2,remaining-time=9,mem-usage=4%,mem-frames=[0,1]
+72,RUNNING,process-name=P6,remaining-time=1,mem-usage=4%,mem-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+75,EVICTED,evicted-frames=[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+75,FINISHED,process-name=P6,proc-remaining=1
+75,RUNNING,process-name=P2,remaining-time=6,mem-usage=1%,mem-frames=[0,1]
+81,EVICTED,evicted-frames=[0,1]
+81,FINISHED,process-name=P2,proc-remaining=0
+Turnaround time 53
+Time overhead 4.71 3.77
+Makespan 81

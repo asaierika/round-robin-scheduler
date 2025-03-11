@@ -1,9 +1,9 @@
-# Round Robin Scheduler Simulation
+Round Robin Scheduler Simulation
 
-## Overview
-This project simulates a **Round Robin CPU Scheduling Algorithm**
+Overview
+This project simulates a Round Robin CPU Scheduling Algorithm
 
-## Test cases
+Test cases
 
 ./allocate -f cases/task1/spec.txt -q 1 -m infinite | diff - cases/task1/spec-q1.out
 ./allocate -f cases/task1/two-processes.txt -q 1 -m infinite | diff - cases/task1/two-processes-q1.out
